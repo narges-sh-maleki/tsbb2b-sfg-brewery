@@ -12,14 +12,17 @@ import org.springframework.stereotype.Component;
 @Configuration
 @Component
 public class JacksonConverterConfig {
-
+ /*
     @Bean
     public MappingJackson2HttpMessageConverter jackson2HttpMessageConverter() {
         ObjectMapper objectMapper = new ObjectMapper();
-      /*  objectMapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
+       objectMapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
         objectMapper.configure(SerializationFeature.WRITE_DATE_TIMESTAMPS_AS_NANOSECONDS, true);
         objectMapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
         objectMapper.registerModule(new JavaTimeModule());
-   */     return new MappingJackson2HttpMessageConverter(objectMapper);
+       return new MappingJackson2HttpMessageConverter(objectMapper);
     }
+
+
+  */
 }

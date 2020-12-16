@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: guru.springframework.brewery.web.controllers.BeerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.472 s <<< FAILURE! - in guru.springframework.brewery.web.controllers.BeerControllerTest
+listBeers  Time elapsed: 1.353 s  <<< FAILURE!
+java.lang.AssertionError: Content type expected:<application/json;charset=UTF-8> but was:<application/json>
+	at guru.springframework.brewery.web.controllers.BeerControllerTest.listBeers(BeerControllerTest.java:104)
+
+getBeerById  Time elapsed: 0.074 s  <<< FAILURE!
+java.lang.AssertionError: Content type expected:<application/json;charset=UTF-8> but was:<application/json>
+	at guru.springframework.brewery.web.controllers.BeerControllerTest.getBeerById(BeerControllerTest.java:119)
+
